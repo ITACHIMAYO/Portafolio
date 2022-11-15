@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Antonio Mayo</title>
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body">
+    <header>
+        <nav class="nav">
+            <h2 class="logo">Mayo<span class="logo-color">Dev</span></h2>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="navMenu">
+                <li class="navMenuItem">
+                    <a href="#profile" class="navMenuLink nav-style">About me</a>
+                </li>
+                <li class="navMenuItem">
+                    <a href="#skills" class="navMenuLink nav-style">Skills</a>
+                </li>
+                <li class="navMenuItem">
+                    <a href="#projects" class="navMenuLink nav-style">Projects</a>
+                </li>
+                <li class="navMenuItem">
+                    <a href="#contact" class="navMenuLink nav-style">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section class="py-3" id="profile">
+        <div class="py-3">
+            <div class="row">
+                <div class="col-lg-6 align-items-lg-center text-center">
+                    <img class="rounded" src="src/img/PicsArt_Photo_Editor_MOD_08-27-05.27.28.jpg" alt="">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <h5>Hi, my name is</h5>
+                    <h1>Antonio Mayo.</h1>
+                    <h3>I'm a Web Developer.</h3>
+                </div>
+       </section>
+       <section id="about">
+        <div class="py-3 container-lg">
+            <div class="row">
+                <h2 class="p-3 text-center">About<hr class="p-0 m-0 linea-sub"></h2>
+                <div class="py-3">
+                    <p class="p-2">My name is Luis Antonio Mayo Vega,
+                     I am 24 years old and I am an enthusiast of the world of
+                      programming who seeks day by day to expand and reinforce my
+                       knowledge as a Web Developer.</p>
+                    <p class="p-2">Since I was little, it caught my attention, how to create web pages and it was not until 2015 that I discovered programming,
+                         it was incredible love at first sight, but due to economic problems, I cannot study a career yet but I never stopped learning on my own.</p>
+                    <p class="p-2">I am currently looking for my first opportunities in the sector.</p>
+                </div>
+            </div>
+        </div>
+       </section>  
+       <section id="skills">
+        <div class="py-5 container-lg">
+            <div class="row">
+                <h2 class="p-3 text-center">Skills<hr class="p-0 m-0 linea-sub"></h2>
+                <div class="py-5 my-3 text-center skills rounded-2">
+                    <ul class="list-inline iconSki">
+                        <i class='bx bxl-javascript'></i>
+                        <i class='bx bxl-react'></i>
+                        <i class='bx bxl-php'></i>
+                        <i class='bx bxl-bootstrap'></i>
+                        <i class='bx bxl-sass'></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section id="projects">
+        <div class="py-5 container-lg">
+         <div class="row">
+             <h2 class="p-3 text-center">Projects<hr class="p-0 m-0 linea-sub"></h2>
+             <div class="slider">
+                <div class="car">
+                    <img src="src/img/items/img1.jpg" alt="">
+                    <div class="info">
+                        <h5>Grocery store</h5>
+                        <p>This has a catalog with search options, shopping cart, wish list and a database created with php, js, bootstrap y css.</p>
+                         <a href="#" class="btn"><i class='bx bx-link-external'></i></a>
+                         <a href="https://github.com/ITACHIMAYO/grocery-store-php" class="btn"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div class="car">
+                    <img src="src/img/items/img2.jpg" alt="">
+                    <div class="info">
+                        <h5>Grocery store</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Harum sed quidem, tempora repellat</p>
+                         <a href="#" class="btn"><i class='bx bx-link-external'></i></a>
+                         <a href="#" class="btn"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+             </div>
+         </div>
+        </div>
+       </section>
+       <section id="contact">
+        <div class="py-5 container-lg">
+            <div class="row">
+                <h2 class="p-3 text-center">Contact<hr class="p-0 m-0 linea-sub"></h2>
+                <h4 class="p-3 text-center">LET'S WORK TOGETHER</h4>
+                <h6 class="p-3 text-center">I will reply as soon as possible</h6>
+                <div class="text-center">
+                    <ul class="list-inline iconCon">
+                        <a href="https://github.com/ITACHIMAYO"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/luis-antonio-mayo-vega-038489249/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.facebook.com/antonio.mayo.963/"><i class='bx bxl-facebook-circle'></i></a>
+                    </ul>
+                </div>
+            </div>
+       </section>
+    </main>
+    <script src="src/main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
