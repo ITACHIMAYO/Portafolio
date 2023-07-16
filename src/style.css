@@ -243,12 +243,12 @@
   .bxl-bootstrap:hover{
     color: #b600fe;
   }
-  .bxl-sass{
+  .bxl-nodejs{
     transition: .4s;
     color: rgb(151, 151, 151);
   }
-  .bxl-sass:hover{
-   color: #fe00fe;
+  .bxl-nodejs:hover{
+   color: #0caf19;
   }
 
   /* Slider*/
